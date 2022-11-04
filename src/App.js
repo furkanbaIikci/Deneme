@@ -11,6 +11,7 @@ import Divider from '@mui/material/Divider';
 import TaskTwoTable from './components/TaskTwoTable';
 import OnurUc from './components/OnurUc';
 import Odev1 from './components/Odev1';
+import Odev2 from './components/OdevIki/Odev2'
 
 function App() {
   return (
@@ -49,7 +50,8 @@ function App() {
           </Grid>
         </Grid> */}
 
-        <Odev1></Odev1>
+        {/* <Odev1></Odev1> */}
+        <Odev2></Odev2>
 
 
       </header>
